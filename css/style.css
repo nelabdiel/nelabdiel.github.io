@@ -650,14 +650,14 @@ nav#menu #menu-nav li a:hover {
 }
 
 .page-alternate {
-  background-image: url("../images/morro.jpg");
-  background-size:cover;
-  background-position: 0 50%;
-  background-repeat: no-repeat;
+  background: #26292E;    
+
 	padding: 100px 0;
 	position: relative;
 	z-index: 99;
 }
+
+
 
 .title-page {
 	text-align: center;
@@ -1409,7 +1409,7 @@ footer .credits {
 }
 
 .page-alternate2 {
-  background-image: url("../images/arg.jpg");
+  background: #26292E;    
   background-size:cover;
   background-position: 0 0%;
   background-repeat: no-repeat;
