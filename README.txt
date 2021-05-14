@@ -1,3 +1,3 @@
-My personal website. www.nelabdiel.com
+My personal website: https://nelabdiel.github.io/
 
  
