@@ -3309,7 +3309,7 @@
 		color: rgba(255, 255, 255, 0.75);
 		text-align: center;
 		cursor: default;
-		padding: 10em 4em 9em 4em;
+		padding: 1em 4em 9em 4em;
 	}
 
 		#banner input, #banner select, #banner textarea {
