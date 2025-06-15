@@ -1,279 +1,715 @@
-<!DOCTYPE HTML>
-<!--
-	Binary by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
-<html>
-	<head>
-		<title>Nelson A. Colón Vargas, PhD</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-        
-                
-                
-         <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>
+            Nelson A. Colón Vargas, Ph.D. - AI, Policy, and Public Good
+        </title>
+        <meta
+            name="description"
+            content="Nelson A. Colón Vargas is a multidisciplinary technologist working at the intersection of artificial intelligence, ethics, and public service. Learn about his work in AI governance, academia, and music."
+        />
 
-  ga('create', 'UA-78292317-1', 'auto');
-  ga('send', 'pageview');
+        <!-- Open Graph tags -->
+        <meta
+            property="og:title"
+            content="Nelson A. Colón Vargas, Ph.D. - AI, Policy, and Public Good"
+        />
+        <meta
+            property="og:description"
+            content="Multidisciplinary technologist bridging AI, ethics, and public service."
+        />
+        <meta property="og:type" content="website" />
 
-</script>
-        
-        
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-78292317-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+        <!-- Google Fonts -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
 
-  gtag('config', 'UA-78292317-1');
-</script>
+        <!-- Lucide Icons -->
+        <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
 
-        
-	</head>
-	<body>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-brand">
+                    <a href="#home">Nelson A. Colón Vargas</a>
+                </div>
 
-		<!-- Header -->
-			<header id="header">
-				<a href="index.html" class="logo"><strong>Nelson A. Colón Vargas</strong>, PhD <i>(aka Nel Abdiel)</i></a>
-				<!--<nav>
-					<a href="#menu">Menu</a>
-				</nav>-->
-			</header>
+                <!-- Desktop Navigation -->
+                <div class="nav-menu">
+                    <a href="#home" class="nav-link active">Home</a>
+                    <a href="#bio" class="nav-link">Bio</a>
+                    <a
+                        href="https://nelabdiel.github.io/ai-services/"
+                        class="nav-link external"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        AI Services <i data-lucide="external-link"></i>
+                    </a>
+                    <a href="#experience" class="nav-link">Experience</a>
+                    <a href="#teaching" class="nav-link">Teaching</a>
+                    <a href="#education" class="nav-link">Education</a>
+                    <a href="#publications" class="nav-link">Publications</a>
+                    <a href="#music" class="nav-link">Music</a>
+                </div>
 
-		<!-- Banner -->
-			<section id="banner">
-				<div class="inner">
-                    <img src="images/NASA.jpg" alt="Nelson Colon speaks at NASA Glenn" style="max-width: 70%">
-					<h1><i>"Though this be madness, yet there is method in't."</i></h1>
-                        <h3>-W. Shakespeare</h3>
+                <!-- Mobile menu button -->
+                <button class="mobile-menu-btn" aria-label="Toggle mobile menu">
+                    <i data-lucide="menu"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <div class="mobile-menu">
+                <a href="#home" class="mobile-nav-link">Home</a>
+                <a href="#bio" class="mobile-nav-link">Bio</a>
+                <a
+                    href="https://nelabdiel.github.io/ai-services/"
+                    class="mobile-nav-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    AI Services <i data-lucide="external-link"></i>
+                </a>
+                <a href="#experience" class="mobile-nav-link">Experience</a>
+                <a href="#teaching" class="mobile-nav-link">Teaching</a>
+                <a href="#education" class="mobile-nav-link">Education</a>
+                <a href="#publications" class="mobile-nav-link">Publications</a>
+                <a href="#music" class="mobile-nav-link">Music</a>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Home Section -->
+            <section id="home" class="section home-section">
+                <div class="container">
+                    <!-- Professional photo -->
+                    <div class="profile-photo">
+                        <img
+                            src="images/NASA.jpg"
+                            alt="Nelson Colon speaks at NASA Glenn"
+                            class="profile-image"
+                            onerror="this.src='images/placeholder.svg'"
+                        />
+                    </div>
+
+                    <h1 class="main-title">Nelson A. Colón Vargas, Ph.D.</h1>
+                    <p class="tagline">
+                        Bridging AI, Policy, and the Public Good
+                    </p>
+
+                    <blockquote class="quote">
+                        "Though this be madness, yet there is method in't."
+                        <footer>— W. Shakespeare</footer>
+                    </blockquote>
+
+                    <div class="social-links">
+                        <a
+                            href="https://www.linkedin.com/in/nelabdiel/"
+                            class="social-btn linkedin"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <i data-lucide="linkedin"></i> LinkedIn
+                        </a>
+                        <a
+                            href="https://orcid.org/0009-0009-9038-7328"
+                            class="social-btn orcid"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <i data-lucide="external-link"></i> ORCID
+                        </a>
+                        <a
+                            href="https://scholar.google.com/citations?user=tz58e2QAAAAJ"
+                            class="social-btn scholar"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <i data-lucide="external-link"></i> Google Scholar
+                        </a>
+                        <a
+                            href="mailto:nacolon@gmail.com"
+                            class="social-btn email"
+                        >
+                            <i data-lucide="mail"></i> Email
+                        </a>
+                        <a
+                            href="https://open.spotify.com/artist/73T51R2Kids9OM2jf3TxPG"
+                            class="social-btn spotify"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <i data-lucide="external-link"></i> Spotify
+                        </a>
+                    </div>
+
+                    <p class="musician-note">
+                        <i data-lucide="music"></i>
+                        Also known as <strong>Nel Abdiel</strong> – musician,
+                        educator, technologist.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Bio Section -->
+            <section id="bio" class="section">
+                <div class="container">
+                    <h2 class="section-title">Biography</h2>
+                    <div class="bio-content">
+                        <p>
+                            Nelson A. Colón Vargas is a multidisciplinary
+                            technologist working at the intersection of
+                            artificial intelligence, ethics, and public service.
+                            His career spans academia, federal leadership, and
+                            creative expression — blending rigorous policy work
+                            with accessible, human-centered design.
+                        </p>
+
+                        <p>
+                            He currently leads AI governance at the Department
+                            of Veterans Affairs, the largest civilian agency in
+                            the U.S., where he helps ensure responsible and
+                            rights-preserving AI development. He has held
+                            similar leadership roles at the U.S. Food and Drug
+                            Administration and the White House U.S. Digital
+                            Service, where he advised on AI strategy, oversight,
+                            and innovation policy.
+                        </p>
+
+                        <p>
+                            Nelson also designed and taught the graduate course
+                            "Computing in Context" to graduate students at
+                            Columbia University's School of International and
+                            Public Affairs and is currently teaching
+                            "Fundamentals of LLMs at North Carolina State
+                            University. His teaching emphasizes technical
+                            literacy, responsible innovation, and long-term
+                            societal impact.
+                        </p>
+
+                        <p>
+                            In addition to his public sector, private sector and
+                            academic work, Nelson is a songwriter and performer
+                            under the name <strong>Nel Abdiel</strong>, using
+                            music as a medium for storytelling and public
+                            engagement. His belief that creativity is a bridge
+                            to accessibility informs how he approaches
+                            technology, education, and governance.
+                        </p>
+
+                        <p>
+                            He holds a Ph.D. in Mathematics and advanced degrees
+                            in Artificial Intelligence and AI Ethics from
+                            institutions including the University of Iowa, the
+                            University of Texas at Austin, and the University of
+                            Cambridge.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Experience Section -->
+            <section id="experience" class="section">
+                <div class="container">
+                    <h2 class="section-title">Experience</h2>
+
+                    <div class="experience-category">
+                        <div class="category-header">
+                            <h3>Public Sector</h3>
+                            <button
+                                class="toggle-btn"
+                                data-target="public-sector"
+                            >
+                                <i data-lucide="chevron-down"></i>
+                            </button>
+                        </div>
+                        <div class="experience-content" id="public-sector">
+                            <div class="experience-item">
+                                <div class="experience-header">
+                                    <h4>Department of Veterans Affairs</h4>
+                                    <span class="period"
+                                        >Dec 2023 – Present</span
+                                    >
+                                </div>
+                                <p class="role">
+                                    Responsible AI Lead – Office of the Chief AI
+                                    Officer
+                                </p>
+                                <p class="description">
+                                    Lead AI governance for the largest civilian
+                                    agency. Manage the agency-wide safety and
+                                    rights impact review process for AI, and
+                                    oversee policy and oversight design to align
+                                    with VA's mission and public trust.
+                                </p>
+                            </div>
+
+                            <div class="experience-item">
+                                <div class="experience-header">
+                                    <h4>U.S. Food & Drug Administration</h4>
+                                    <span class="period"
+                                        >June 2023 – Dec 2023</span
+                                    >
+                                </div>
+                                <p class="role">
+                                    Artificial Intelligence Lead – Office of the
+                                    Commissioner
+                                </p>
+                                <p class="description">
+                                    Chaired the FDA AI Governance and Advisory
+                                    Board. Contributed to AI policy efforts at
+                                    HHS and the White House. Supported strategic
+                                    initiatives like the White House Cancer
+                                    Moonshot.
+                                </p>
+                            </div>
+
+                            <div class="experience-item">
+                                <div class="experience-header">
+                                    <h4>U.S. Digital Service</h4>
+                                    <span class="period"
+                                        >Nov 2021 – June 2023</span
+                                    >
+                                </div>
+                                <p class="role">
+                                    AI & Cybersecurity Lead – Executive Office
+                                    of the President
+                                </p>
+                                <p class="description">
+                                    Developed AI governance practices and
+                                    cybersecurity tools in collaboration with
+                                    the VA and Department of Defense. Ensured
+                                    compliance with White House AI principles.
+                                </p>
+                            </div>
+
+                            <div class="experience-item">
+                                <div class="experience-header">
+                                    <h4>Presidential Innovation Fellows</h4>
+                                    <span class="period"
+                                        >Jan 2019 – Oct 2021</span
+                                    >
+                                </div>
+                                <p class="role">
+                                    AI Lead – Entrepreneur in Residence – White
+                                    House
+                                </p>
+                                <p class="description">
+                                    Led the development of the Claims Attributes
+                                    API, reducing VA claims processing time and
+                                    saving over $10M annually. Designed AI
+                                    research funding frameworks at the
+                                    Department of Transportation.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="experience-category">
+                        <div class="category-header">
+                            <h3>Private Sector</h3>
+                            <button
+                                class="toggle-btn"
+                                data-target="private-sector"
+                            >
+                                <i data-lucide="chevron-down"></i>
+                            </button>
+                        </div>
+                        <div class="experience-content" id="private-sector">
+                            <div class="experience-item">
+                                <div class="experience-header">
+                                    <h4>Microsoft</h4>
+                                    <span class="period"
+                                        >Feb 2018 – Jan 2019</span
+                                    >
+                                </div>
+                                <p class="role">
+                                    Data & Applied Scientist II – Redmond, WA /
+                                    Humacao, PR
+                                </p>
+                                <p class="description">
+                                    Developed ML-based time series anomaly
+                                    detection tools for product and cloud
+                                    security. Designed algorithms for intrusion
+                                    detection and digital rights protection.
+                                </p>
+                            </div>
+
+                            <div class="experience-item">
+                                <div class="experience-header">
+                                    <h4>Soteria</h4>
+                                    <span class="period"
+                                        >June 2016 – Jan 2018</span
+                                    >
+                                </div>
+                                <p class="role">
+                                    Lead Data Scientist – Charleston, SC
+                                </p>
+                                <p class="description">
+                                    Directed a team building an NLP-based
+                                    phishing detection product. Applied language
+                                    models to emerging cybersecurity threats.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Teaching Section -->
+            <section id="teaching" class="section">
+                <div class="container">
+                    <h2 class="section-title">Teaching</h2>
+
+                    <div class="teaching-grid">
+                        
+                        
+                        
+                        <div class="teaching-item">
+                            <div class="teaching-header">
+                                <h3>North Carolina State University</h3>
+                                <span class="teaching-period"
+                                    >Lecturer (2025–Present)</span
+                                >
+                            </div>
+                            <p class="department">Data Science & AI Academy</p>
+                            <ul class="responsibilities">
+                                <li>
+                                    <i data-lucide="check-circle"></i> Course:
+                                    Fundamentals of Large Language Models
+                                </li>
+                                <li>
+                                    <i data-lucide="check-circle"></i> Emphasis on the technical architecture and applications of LLMs
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        
+                        
+                        
+                        <div class="teaching-item">
+                            <div class="teaching-header">
+                                <h3>Columbia University</h3>
+                                <span class="teaching-period"
+                                    >Adjunct Faculty (2022–2024)</span
+                                >
+                            </div>
+                            <p class="department">
+                                School of International and Public Affairs
+                                (SIPA)
+                            </p>
+                            <ul class="responsibilities">
+                                <li>
+                                    <i data-lucide="check-circle"></i> Taught
+                                    graduate courses on data science for policy
+                                    and ethics
+                                </li>
+                                <li>
+                                    <i data-lucide="check-circle"></i> Designed course,
+                                    labs and supervised 5 graduate teaching
+                                    assistants
+                                </li>
+                                <li>
+                                    <i data-lucide="check-circle"></i> Focused
+                                    on real-world applications and social impact
+                                </li>
+                            </ul>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </section>
+
+            <!-- Education Section -->
+            <section id="education" class="section">
+                <div class="container">
+                    <h2 class="section-title">Education</h2>
                     
-					<ul class="actions">
-						<li><a href="#one" class="button alt scrolly big">Continue</a></li>
-					</ul>
-				</div>
-			</section>
-
-		<!-- Two -->
-			<article id="one" class="post invert style1">
-				<div class="image">
-					<img src="images/WH.jpg" alt="Nelson Colon at the White House" data-position="45% center" />
-				</div>
-				<div class="content">
-					<div class="inner">
-						<header>
-							<h2>About Me:</h2>
-							<!--<p class="info">3 days ago by <a href="#">Jane Doe</a></p>-->
-						</header>
-                        <p>Nelson A. Colón Vargas is a passionate advocate for education, equity, and civic tech, boasting a diverse background across academia, startups, Fortune 100 companies, and the Federal Government. His unique blend of expertise has driven AI innovation and made a significant impact in various domains.</p>
-
-                        <p>Notable among his achievements is Nelson's leadership in developing the groundbreaking Claims Attributes API, revolutionizing benefit claims processing at the Department of Veterans Affairs. This AI-driven solution accurately predicts benefit claims based on veterans' descriptions, resulting in reduced processing time and millions of dollars in savings for the agency. Nelson's exceptional contributions were recognized with a prestigious Special Act Award.</p>
-
-<p>Within the Department of Transportation, Nelson addressed the technical knowledge gap within the Intelligent Transportation Systems Joint Program Office. By creating comprehensive evaluation rubrics and implementing standardized processes, he enabled informed funding decisions for AI-driven projects. Additionally, he spearheaded a program that leverages expertise from government agencies to fill the gaps in technical knowledge within the organization.</p>
-
-<p>As an Adjunct Faculty at Columbia University's School of International and Public Affairs, Nelson empowers students with the tools to leverage data-driven policy-making for positive change. Through his teaching, he combines his passion for education, AI, and helping others, nurturing the next generation of policymakers and fostering innovation.</p>
-
-<p>Beyond his professional endeavors, Nelson is a talented musician and songwriter. Music has always been a wellspring of inspiration for him, grounding him and fueling his creativity. Through concise storytelling tools acquired from songwriting he is able to connect and communicate complex ideas, making AI concepts accessible to diverse audiences.</p>
-
-<p>Nelson remains committed to leveraging his expertise in AI, innovation, and education to drive positive change, bridge the gap between technology and society, and create a future where AI-driven solutions promote inclusivity, efficiency, and equitable progress.</p>
-						<!--<ul class="actions">
-							<li><a href="generic.html" class="button alt">Read More</a></li>
-						</ul>-->
-					</div>
-					<div class="postnav">
-						<a href="#one" class="scrolly prev"><span class="icon fa-chevron-up"></span></a>
-						<a href="#three" class="scrolly next"><span class="icon fa-chevron-down"></span></a>
-					</div>
-				</div>
-			</article>
-
-        
-		<!-- One -->
-			<article id="two" class="post style1 alt">
-				<div class="image">
-					<img src="images/Desk.jpg" alt="Nelson Colon playing dominoes at the Department of Veterans Affairs" data-position="45% center" />
-				</div>
-				<div class="content">
-					<div class="inner">
-						<header>
-							<h2>Education:</h2>
-							<!--<p class="info">3 days ago by <a href="#">Jane Doe</a></p>-->
-						</header>
+                    <div class="education-grid">
                         
-                        <ul>
-                        <li><b>PhD</b> in Mathematics, University of Iowa</li>
-                        <li><b>MSt</b> in Artificial Intelligence Ethics and Society, University of Cambridge (ABD)</li>
-                        <li><b>MSc</b> in Artificial Intelligence, University of Texas at Austin</li>
-                        <li><b>MSc</b> in Mathematics, University of Iowa</li>
-                        <li><b>MA</b> in Mathematics, University of Northern Iowa</li>
-                        <li><b>BSc</b> in Mathematics, University of Puerto Rico, Rio Piedras</li>
-                        <li><b>Certificate</b> in Data Science, The Data Incubator</li>
-                            <li><b>Professional Certificate</b> in Songwriting, Berklee College of Music</li>  
-                        </ul>
                         
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Check out my <a href="Nel_Resume.pdf"><b>Resume</b></a> or my <a href="Nel_CV.pdf"><b>CV</b></a>.
-						<!--<ul class="actions">
-							<li><a href="generic.html" class="button alt">Read More</a></li>
-						</ul>-->
-					</div>
-					<div class="postnav">
-						<a href="#" class="prev disabled"><span class="icon fa-chevron-up"></span></a>
-						<a href="#two" class="scrolly next"><span class="icon fa-chevron-down"></span></a>
-					</div>
-				</div>
-			</article>
-		<!-- Five -->
-			<article id="three" class="post invert style3">
-				<div class="image">
-					<img src="images/Domino.jpg" alt="Nelson Colon playing dominoes at the White House" data-position="5% center" />
-				</div>
-				<div class="content">
-					<div class="inner">
-						<header>
-							<h2>Selected articles about me and/or my work:</h2>
-							<!--<p class="info">3 days ago by <a href="#">Jane Doe</a></p>-->
-						</header>
-						<ul>
-                        <li><a href="https://www.govloop.com/cutting-bureaucratic-tape-to-bring-better-service-to-veterans"><font color="black">Cutting Bureacratic Tape To Bring Better Services to Veterans</font></a></li>
+                        <div class="education-item">
+                            <div class="education-header">
+                                <h3>University of Iowa</h3>
+                                <span class="degree-period">Ph.D., Mathematics</span>
+                            </div>
+                            <p class="department">Department of Mathematics</p>
+                        </div>
+                        
+                        <div class="education-item">
+                            <div class="education-header">
+                                <h3>University of Texas at Austin</h3>
+                                <span class="degree-period">M.S., Artificial Intelligence</span>
+                            </div>
+                            <p class="department">Department of Computer Science</p>
+                        </div>
+
+                        
+                        
+                        <div class="education-item">
                             
-                        <li><a href="https://www.cienciapr.org/en/monthly-story/nelson-colon-vargas-first-boricua-become-presidential-innovation-fellow"><font color="black">Nelson Colón Becomes First Boricua (Puerto Rican) To Be Named White House Presidential Innovation Fellow</font></a></li>
-                    
-                        <li><a href="https://www.va.gov/opa/publications/vanguard/VAnguard-Fall-2020.pdf"><font color="black">Streaming Disability Claims (Pages 16-20)</font></a></li>
-                    
-                        <li><a href="https://presidentialinnovationfellows.gov/reports/PIF-Impact-Report-2020.pdf"><font color="black">Using Machine Learning To Deliver Veterans’ Benefits Faster (Page 33)</font></a></li>   
-                            
-                        <li><a href="https://www.oit.va.gov/news/article/index.cfm?read=va-launches-smart-tool-to-reduce-veteran-wait-times-for-disability-claims"><font color="black">VA Launches Smart Tool To Reduce Veteran Wait Times For Disability Claims</font></a></li> 
-                            
-                        <li><a href="https://www.uprrp.edu/2019/03/exalumno-de-la-upr-formara-parte-del-white-house-presidential-innovation-fellowship-2019/"><font color="black">Exalumno De La UPR Formara Parte Del White House Presidential Innovation Fellowship 2019</font></a></li> 
-                            
-                        <li><a href="https://dailyiowan.com/2019/04/30/ui-alum-heads-to-d-c-with-presidential-fellowship/"><font color="black">UI Alum heads to DC</font></a></li>
-                        
-                        <li><a href="https://math.uprrp.edu/math-alumni-nelson-a-colon-vargas-b-s-mathematics-2009-uprrp-selected-presidential-innovation-fellow/"><font color="black">Math Alumni Nelson A. Colón Vargas (B.S. Mathematics 2009, UPRRP) selected Presidential Innovation Fellow </font></a></li>
-                            
-                        <li><a href="https://math.uiowa.edu/news-events/news/white-house-names-mathematics-alumni-nelson-colon-vargas-presidental-innovation"><font color="black">White House names Mathematics alumni Nelson Colon Vargas as a Presidental Innovation Fellow</font></a></li> 
-                            
-                        </ul>
+                            <div class="education-header">
+                                <h3>University of Cambridge</h3>
+                                <span class="degree-period">M.St. AI, Ethics & Society</span>
+                            </div>
+                            <p class="department">Lucy Cavendish College</p>
+                        </div>
                         
                         
-						<!--<ul class="actions">
-							<li><a href="generic.html" class="button alt">Read More</a></li>
-						</ul>-->
-					</div>
-					<div class="postnav">
-						<a href="#two" class="scrolly prev"><span class="icon fa-chevron-up"></span></a>
-						<a href="#four" class="scrolly next"><span class="icon fa-chevron-down"></span></a>
-					</div>
-				</div>
-			</article>
-
-		<!-- Six -->
-			<article id="four" class="post style3 alt">
-				<div class="image">
-					<img src="images/YellowColorProfilePic.png" alt="Nelson Colon playing the Guitar and smiling" data-position="80% center" />
-				</div>
-				<div class="content">
-					<div class="inner">
-						<header>
-							<h2>Music:</h2>
-							<p class="info"><font color="000000">Songwriting, Production and Performances</font></p>
-						</header>
-						<font color="000000"><p>On my spare time I write music and perform around the DC area under the artistic name of <b>Nel Abdiel</b>. Check out my music website: <a href="https://nelabdiel.github.io/nelabdielmusic/"><b>NelAbdiel.com</b></a>.</p></font>
-						<!--<ul class="actions">
-							<li><a href="generic.html" class="button alt">Read More</a></li>
-						</ul>-->
-					</div>
-					<div class="postnav">
-						<a href="#three" class="scrolly prev"><span class="icon fa-chevron-up"></span></a>
-						<a href="#five" class="scrolly next"><span class="icon fa-chevron-down"></span></a>
-					</div>
-				</div>
-			</article>        
-        
-		<!-- Three -->
-			<article id="five" class="post invert style2">
-				<div class="image">
-					<img src="images/Naranjito.jpeg" alt="Nelson Colon in front of Puerto Rican flag at Naranjito" data-position="30% center" />
-				</div>
-				<div class="content">
-					<div class="inner">
-						<header>
-							<h2>Profiles:</h2>
-							<p class="info">Here's a list of my online profiles if you'd like to learn more about me.</p>
-						</header>
+                         <div class="education-item">
+                            <div class="education-header">
+                                <h3>University of Puerto Rico, Río Piedras</h3>
+                                <span class="degree-period">B.Sc., Mathematics</span>
+                            </div>
+                            <p class="department">Department of Mathematics</p>
+                        </div>
                         
-						<ul>
-                        <li><a href="https://www.linkedin.com/in/nelabdiel">LinkedIn (nelabdiel)</a></li>
-                        <li><a href="https://github.com/nelabdiel">Github (nelabdiel)</a></li> 
-                        <li><a href="https://arxiv.org/find/all/1/all:+AND+nel+abdiel/0/1/0/all/0/1">arXiv (Nel Abdiel)</a></li>    
-                        <li><a href="https://www.kaggle.com/nelabdiel">Kaggle (nelabdiel)</a></li>
-                        <li><a href="https://medium.com/@nelabdiel">Medium (@nelabdiel)</a></li>
-                        <li><a href="https://twitter.com/nelabdiel">Twitter (nelabdiel)</a></li>
-                        <li><a href="https://www.instagram.com/nel.abdiel/">Instagram (nel.abdiel)</a></li>
-                        
-                           
-                        </ul>
-						<!--<ul class="actions">
-							<li><a href="generic.html" class="button alt">Read More</a></li>
-						</ul>-->
-					</div>
-					<div class="postnav">
-						<a href="#four" class="scrolly prev"><span class="icon fa-chevron-up"></span></a>
-						<a href="#six" class="scrolly next"><span class="icon fa-chevron-down"></span></a>
-					</div>
-				</div>
-			</article>
+                    </div>
+                </div>
+            </section>
 
-		<!-- Four -->
-        
-			<!--<article id="six" class="post invert style2">
-				<div class="image">
-					<img src="images/iowa.jpg" alt="" data-position="60% center" />
-				</div>
-				<div class="content">
-					<div class="inner">
-						<header>
-							<h2><a href="generic.html">What else?</a></h2>
-							<!--<p class="info">3 days ago by <a href="#">Jane Doe</a></p>-->
-						<!--</header>
-						<p>If you scroll through my instagram account for less than 5 seconds you will soon realized that outside of work all I do is lift weights, go cycling and eat. However nothing tops reading a good book or drinking neat whiskey while conversing with friends or even strangers.</p>
-						<!--<ul class="actions">
-							<li><a href="generic.html" class="button alt">Read More</a></li>
-						</ul>-->
-					<!--</div>
-					<div class="postnav">
-						<a href="#five" class="scrolly prev"><span class="icon fa-chevron-up"></span></a>
-						<a href="#" class="scrolly next disabled"><span class="icon fa-chevron-down"></span></a>
-					</div>
-				</div>
-			</article>-->
+            <!-- Publications Section -->
+            <section id="publications" class="section">
+                <div class="container">
+                    <h2 class="section-title">Publications</h2>
 
+                    <div class="tabs">
+                        <div class="tab-buttons">
+                            <button class="tab-btn active" data-tab="academic">
+                                Academic Publications
+                            </button>
+                            <button class="tab-btn" data-tab="commentary">
+                                Letters & Commentary
+                            </button>
+                        </div>
 
+                        <div class="tab-content active" id="academic-tab">
+                            <div class="publications-grid">
+                                <div class="publication-item">
+                                    <h4>Q-LIME π</h4>
+                                    <p class="venue">Preprint</p>
+                                    <a
+                                        href="https://doi.org/10.48550/arXiv.2412.17197"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="publication-link"
+                                    >
+                                        View Publication
+                                        <i data-lucide="external-link"></i>
+                                    </a>
+                                </div>
 
-		<!-- Footer -->
-			<footer id="footer">
-				<ul class="icons">
-					<li><a href="https://twitter.com/nelabdiel" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-					<!--<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-					<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>-->
-				</ul>
-				<!--<div class="copyright">
-					&copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com">Unsplash</a>.
-				</div>-->
-            
-			</footer>
+                                <div class="publication-item">
+                                    <h4>The Traveling Mailman</h4>
+                                    <p class="venue">Under Review</p>
+                                    <a
+                                        href="https://arxiv.org/abs/2407.19535"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="publication-link"
+                                    >
+                                        View Publication
+                                        <i data-lucide="external-link"></i>
+                                    </a>
+                                </div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+                                <div class="publication-item">
+                                    <h4>
+                                        Exploiting the Margin: How Capitalism
+                                        Fuels AI
+                                    </h4>
+                                    <p class="venue">AI & Ethics, 2024</p>
+                                    <a
+                                        href="https://link.springer.com/content/pdf/10.1007/s43681-024-00502-w"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="publication-link"
+                                    >
+                                        View Publication
+                                        <i data-lucide="external-link"></i>
+                                    </a>
+                                </div>
 
-	</body>
+                                <div class="publication-item">
+                                    <h4>
+                                        The Localized Skein Algebra is Frobenius
+                                    </h4>
+                                    <p class="venue">AGT (2017)</p>
+                                    <a
+                                        href="https://doi.org/10.2140/agt.2017.17.3341"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="publication-link"
+                                    >
+                                        View Publication
+                                        <i data-lucide="external-link"></i>
+                                    </a>
+                                </div>
+
+                                <div class="publication-item">
+                                    <h4>
+                                        Frobenius Algebras from Skein Theory
+                                    </h4>
+                                    <p class="venue">J. Knot Theory (2016)</p>
+                                    <a
+                                        href="https://doi.org/10.1142/S0218216516500164"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="publication-link"
+                                    >
+                                        View Publication
+                                        <i data-lucide="external-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-content" id="commentary-tab">
+                            <div class="publications-grid">
+                                <div class="publication-item">
+                                    <h4>
+                                        Pioneering the Future: VA's AI Use Case
+                                        Inventory
+                                    </h4>
+                                    <p class="venue">Digital VA, 2024</p>
+                                    <a
+                                        href="https://digital.va.gov/vision-driven-execution/pioneering-the-future-vas-ai-use-case-inventory/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="publication-link"
+                                    >
+                                        View Publication
+                                        <i data-lucide="external-link"></i>
+                                    </a>
+                                </div>
+
+                                <div class="publication-item">
+                                    <h4>Generative AI for ESL Students</h4>
+                                    <p class="venue">
+                                        PHSU Journal, 2024 (Accepted)
+                                    </p>
+                                    <p class="description">
+                                        Publication pending
+                                    </p>
+                                </div>
+
+                                <div class="publication-item">
+                                    <h4>Democratizing AI</h4>
+                                    <p class="venue">PrecisionFDA Blog</p>
+                                    <a
+                                        href="https://precision.fda.gov/experts/22/blog"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="publication-link"
+                                    >
+                                        View Publication
+                                        <i data-lucide="external-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Music Section -->
+            <section id="music" class="section">
+                <div class="container">
+                    <h2 class="section-title">Music</h2>
+
+                    <div class="music-content">
+                        <p>
+                            Nelson performs under the stage name
+                            <strong>Nel Abdiel</strong>, writing and producing
+                            original songs that blend lyrical depth with
+                            rhythmic creativity. Based in the Miami area, he
+                            occasionally performs live and publishes work
+                            online.
+                        </p>
+                        <p>
+                            Music helps him stay grounded — and it shapes how he
+                            communicates complex ideas through storytelling.
+                        </p>
+                    </div>
+
+                    <div class="music-links">
+                        <a
+                            href="https://open.spotify.com/artist/73T51R2Kids9OM2jf3TxPG"
+                            class="music-btn spotify"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            🎧 Listen on Spotify
+                            <i data-lucide="external-link"></i>
+                        </a>
+                        <a
+                            href="https://nelabdiel.github.io/nelabdielmusic/"
+                            class="music-btn website"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            🌐 Visit NelAbdiel.com
+                            <i data-lucide="external-link"></i>
+                        </a>
+                        <a
+                            href="https://www.instagram.com/nel.abdiel/"
+                            class="music-btn instagram"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            📷 Follow on Instagram
+                            <i data-lucide="external-link"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <h3>Connect</h3>
+                <div class="footer-links">
+                    <a href="https://www.linkedin.com/in/nelabdiel/" class="footer-link" target="_blank"
+                        rel="noopener noreferrer">
+                        <i data-lucide="linkedin"></i> LinkedIn
+                    </a>
+                    <a href="https://orcid.org/0009-0009-9038-7328" class="footer-link" target="_blank"
+                        rel="noopener noreferrer">
+                        <i data-lucide="external-link"></i> ORCID
+                    </a>
+                    <a href="https://scholar.google.com/citations?user=tz58e2QAAAAJ" class="footer-link" target="_blank"
+                        rel="noopener noreferrer">
+                        <i data-lucide="external-link"></i> Google Scholar
+                    </a>
+                    <a href="mailto:nacolon@gmail.com" class="footer-link">
+                        <i data-lucide="mail"></i> Email
+                    </a>
+                    <a
+                        href="https://open.spotify.com/artist/73T51R2Kids9OM2jf3TxPG"
+                        class="footer-link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <i data-lucide="external-link"></i> Spotify
+                    </a>
+                </div>
+                <p class="copyright">
+                    © 2025 Nelson A. Colón Vargas. All rights reserved.
+                </p>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
 </html>
