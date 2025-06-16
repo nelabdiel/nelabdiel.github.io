@@ -315,6 +315,21 @@ body {
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .musician-note {
+        display: block;
+        text-align: center;
+    }
+    
+    .musician-note i {
+        display: inline-block;
+        margin-right: 0.5rem;
+        vertical-align: middle;
+    }
 }
 
 .musician-note strong {
