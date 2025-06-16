@@ -265,6 +265,9 @@ body {
     justify-content: center;
     gap: 1rem;
     margin-bottom: 2rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .social-btn {
@@ -287,6 +290,12 @@ body {
 
 .social-btn.scholar { background-color: #dc2626; }
 .social-btn.scholar:hover { background-color: #b91c1c; }
+
+.social-btn.arxiv { background-color: #b31b1b; }
+.social-btn.arxiv:hover { background-color: #991b1b; }
+
+.social-btn.github { background-color: #24292e; }
+.social-btn.github:hover { background-color: #1a1e22; }
 
 .social-btn.email { background-color: var(--primary-blue); }
 .social-btn.email:hover { background-color: var(--primary-dark); }
